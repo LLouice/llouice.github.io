@@ -1,6 +1,6 @@
 baseURL = "http://llouice.github.io"
 title = "LLouice"
-publishBranch = master
+publishBranch = "master"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
