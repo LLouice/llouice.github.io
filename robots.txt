@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://github.com/llouice/sitemap.xml
