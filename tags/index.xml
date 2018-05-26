@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on LLouice</title>
+    <link>http://github.com/llouice/tags/</link>
+    <description>Recent content in Tags on LLouice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 May 2018 14:28:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://github.com/llouice/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Electron</title>
+      <link>http://github.com/llouice/tags/electron/</link>
+      <pubDate>Thu, 24 May 2018 14:28:30 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/electron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preview</title>
+      <link>http://github.com/llouice/tags/preview/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/preview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>http://github.com/llouice/tags/shortcodes/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag 1</title>
+      <link>http://github.com/llouice/tags/tag-1/</link>
+      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/tag-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tag 6</title>
+      <link>http://github.com/llouice/tags/tag-6/</link>
+      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/tag-6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>中文</title>
+      <link>http://github.com/llouice/tags/%E4%B8%AD%E6%96%87/</link>
+      <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
+      
+      <guid>http://github.com/llouice/tags/%E4%B8%AD%E6%96%87/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
