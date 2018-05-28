@@ -10,6 +10,9 @@ cd public
 # Add changes to git.
 git add .
 
+# rm -rf public
+# git rm --cached public -r --quiet
+
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
