@@ -1,7 +1,8 @@
 ---
 title: "读研前的感想"
 date: 2018-06-07T14:33:17+08:00
-draft: true
+draft: false
+tags: ["thoughts"]
 ---
 
 ## 行政的恶意
