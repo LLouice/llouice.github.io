@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>First - LLouice</title>
+  <link rel="alternate" hreflang="en" href="http://llouice.github.io" />
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="llouice" />
+  <meta name="description" content="Bspline B-spline generator based on Electron and python 项目依赖安装 bootstrap bootstrap-switch jquery zeromq zerorpc zerorpc npm install git&#43;https://github.com/fyears/zerorpc-node.git zerorpc zerorpc-node github zerorpc-python github zeromq Rebuilding for Electron before npm start npm rebuild zeromq --runtime=electron --target=1.8.4 zeromq for node.js devDependencies electron : ^1.8.4 electron-reload : ^2.2.1 打包 使用 Eelctron-Packager 进行打包 electron-packager . B-spline --overwrite --asar=true --ignore=&amp;quot;bak&amp;quot; --ignore=&amp;quot;pybspline&amp;quot; 由于 main.js 中" />
+
+  <meta name="keywords" content="Blog, llouice, github, hugo, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.39" />
+
+
+<link rel="canonical" href="http://llouice.github.io/post/first/" />
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+<link href="/dist/jane.min.css?v=2.7.0" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<meta property="og:title" content="First" />
+<meta property="og:description" content="Bspline B-spline generator based on Electron and python 项目依赖安装 bootstrap bootstrap-switch jquery zeromq zerorpc zerorpc npm install git&#43;https://github.com/fyears/zerorpc-node.git zerorpc zerorpc-node github zerorpc-python github zeromq Rebuilding for Electron before npm start npm rebuild zeromq --runtime=electron --target=1.8.4 zeromq for node.js devDependencies electron : ^1.8.4 electron-reload : ^2.2.1 打包 使用 Eelctron-Packager 进行打包 electron-packager . B-spline --overwrite --asar=true --ignore=&quot;bak&quot; --ignore=&quot;pybspline&quot; 由于 main.js 中" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://llouice.github.io/post/first/" />
+
+
+
+<meta property="article:published_time" content="2018-05-24T14:28:30&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-05-24T14:28:30&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="First">
+<meta itemprop="description" content="Bspline B-spline generator based on Electron and python 项目依赖安装 bootstrap bootstrap-switch jquery zeromq zerorpc zerorpc npm install git&#43;https://github.com/fyears/zerorpc-node.git zerorpc zerorpc-node github zerorpc-python github zeromq Rebuilding for Electron before npm start npm rebuild zeromq --runtime=electron --target=1.8.4 zeromq for node.js devDependencies electron : ^1.8.4 electron-reload : ^2.2.1 打包 使用 Eelctron-Packager 进行打包 electron-packager . B-spline --overwrite --asar=true --ignore=&quot;bak&quot; --ignore=&quot;pybspline&quot; 由于 main.js 中">
+
+
+<meta itemprop="datePublished" content="2018-05-24T14:28:30&#43;08:00" />
+<meta itemprop="dateModified" content="2018-05-24T14:28:30&#43;08:00" />
+<meta itemprop="wordCount" content="351">
+
+
+
+<meta itemprop="keywords" content="electron," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="First"/>
+<meta name="twitter:description" content="Bspline B-spline generator based on Electron and python 项目依赖安装 bootstrap bootstrap-switch jquery zeromq zerorpc zerorpc npm install git&#43;https://github.com/fyears/zerorpc-node.git zerorpc zerorpc-node github zerorpc-python github zeromq Rebuilding for Electron before npm start npm rebuild zeromq --runtime=electron --target=1.8.4 zeromq for node.js devDependencies electron : ^1.8.4 electron-reload : ^2.2.1 打包 使用 Eelctron-Packager 进行打包 electron-packager . B-spline --overwrite --asar=true --ignore=&quot;bak&quot; --ignore=&quot;pybspline&quot; 由于 main.js 中"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+<link rel="stylesheet" href="/css/highlight/monokai.css">
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">LLouice</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        <a href="/">
+          Home
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="/post/">
+          Archives
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="/tags/">
+          Tags
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="/categories/">
+          Categories
+        </a>
+      </li><li class="mobile-menu-item">
+        <a href="">
+          docs
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      LLouice
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://llouice.github.io/">Home</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://llouice.github.io/post/">Archives</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://llouice.github.io/tags/">Tags</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://llouice.github.io/categories/">Categories</a>
+          
+
+        
+
+      </li>
+    
+      <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="http://llouice.github.io">docs</a>
+          <ul class="submenu">
+            
+              <li>
+                <a href="http://llouice.github.io/post/jane-theme-preview/">Jane Theme Preview</a>
+              </li>
+            
+              <li>
+                <a href="http://llouice.github.io/post/shortcodes-preview/">Shortcodes Preview</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">First</h1>
+      
+      <div class="post-meta">
+        <span class="post-time"> 2018-05-24 </span>
+        
+        <span class="more-meta"> 351 words </span>
+        <span class="more-meta"> 1 min read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  
+  <div class="post-toc-title">
+    <svg aria-hidden="true" class="octicon octicon-book" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16">
+      <path d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path>
+    </svg>
+  </div>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#bspline">Bspline</a>
+<ul>
+<li><a href="#项目依赖安装">项目依赖安装</a>
+<ul>
+<li><a href="#zerorpc">zerorpc</a></li>
+<li><a href="#zeromq-rebuilding-for-electron">zeromq Rebuilding for Electron</a></li>
+<li><a href="#devdependencies">devDependencies</a></li>
+</ul></li>
+<li><a href="#打包">打包</a>
+<ul>
+<li>
+<ul>
+<li><a href="#packaged-环境变化">Packaged 环境变化</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h1 id="bspline">Bspline</h1>
+
+<p>B-spline generator based on Electron and python</p>
+
+<h2 id="项目依赖安装">项目依赖安装</h2>
+
+<ul>
+<li>bootstrap</li>
+<li>bootstrap-switch</li>
+<li>jquery</li>
+<li>zeromq</li>
+<li>zerorpc</li>
+</ul>
+
+<h3 id="zerorpc">zerorpc</h3>
+
+<pre><code class="language-console">npm install git+https://github.com/fyears/zerorpc-node.git
+</code></pre>
+
+<ul>
+<li><a href="http://www.zerorpc.io/">zerorpc</a></li>
+<li><a href="https://github.com/0rpc/zerorpc-node">zerorpc-node github</a></li>
+<li><a href="https://github.com/0rpc/zerorpc-python">zerorpc-python github</a></li>
+</ul>
+
+<h3 id="zeromq-rebuilding-for-electron">zeromq Rebuilding for Electron</h3>
+
+<p>before <code>npm start</code></p>
+
+<pre><code class="language-shell">npm rebuild zeromq --runtime=electron --target=1.8.4
+</code></pre>
+
+<ul>
+<li><a href="https://www.npmjs.com/package/zeromq">zeromq for node.js</a></li>
+</ul>
+
+<h3 id="devdependencies">devDependencies</h3>
+
+<ul>
+<li>electron : ^1.8.4</li>
+<li>electron-reload : ^2.2.1</li>
+</ul>
+
+<hr />
+
+<h2 id="打包">打包</h2>
+
+<p>使用 <strong>Eelctron-Packager</strong> 进行打包</p>
+
+<pre><code class="language-sh">electron-packager . B-spline --overwrite --asar=true --ignore=&quot;bak&quot; --ignore=&quot;pybspline&quot;
+</code></pre>
+
+<p>由于 <code>main.js</code> 中有：</p>
+
+<pre><code class="language-js">require('child_process').execFile(script, [port])
+
+</code></pre>
+
+<p>而参见 <a href="http://electronjs.org/docs/tutorial/application-packaging">Electron 应用打包</a> 中的</p>
+
+<blockquote>
+<p><strong>某些 API 需要额外解压档案包</strong><br>
+大部分 <code>fs</code> API 可以无需解压即从 <code>asar</code> 档案中读取文件或者文件的信息，但是在处理一些依赖真实文件路径的底层系统方法时，Electron 会将所需文件解压到临时目录下，然后将临时目录下的真实文件路径传给底层系统方法使其正常工作。对于这类API，会增加一些开销。<br>
+以下是一些需要额外解压的 API : <br>
+<code><strong>child_process.execFile</strong></code><br>
+<code>child_process.execFileSync</code><br>
+<code>fs.open</code><br>
+<code>fs.openSync</code>
+<code>process.dlopen</code> - 用在 require 原生模块时</p>
+</blockquote>
+
+<p>所以不将pybsplinedist归档进<code>app.asar</code>,否则只解压<code>api.exe</code>到 Temp 文件夹,而相应的 Python 环境则没解压，造成找不到 Python 环境的错误。</p>
+
+<h4 id="packaged-环境变化">Packaged 环境变化</h4>
+
+<p>dev</p>
+
+<pre><code class="language-bash">__dirname: I:\Projects\Electron\Bspline
+__filename: I:\Projects\Electron\Bspline\main.js
+     
+</code></pre>
+
+<p>packaged</p>
+
+<pre><code class="language-bash">__dirname: I:\Projects\Electron\Bspline\B-spline-win32-x64\resources\app.asar
+__filename: I:\Projects\Electron\Bspline\B-spline-win32-x64\resources\app.asar\main.js
+
+[注] asar=false : app.asar =&gt;　app
+</code></pre>
+
+<pre><code class="language-py">import sys
+
+def main():
+    print(&quot;hello world&quot;)
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+
+<pre><code class="language-js">console.log(&quot;hello world&quot;)
+</code></pre>
+
+    </div>
+
+    
+    
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/electron/">electron</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/thought-before-the-graduate-school/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">读研前的感想</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/jane-theme-preview/">
+            <span class="next-text nav-default">Jane Theme Preview</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+    
+
+  
+
+  
+
+  
+  </article>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="g13920228592@gmial.com.com" rel="me noopener" class="iconfont icon-email"
+        title="email" target="_blank">
+      </a>
+      <a href="http://github.com/llouice" rel="me noopener" class="iconfont icon-github"
+        title="github" target="_blank">
+      </a>
+  <a href="http://llouice.github.io/index.xml" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span><span class="author">llouice</span></span>
+
+</div>
+
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+<script type="text/javascript" src="/dist/jane.min.js?v=2.7.0"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+<script>console.log("load highlight")</script>
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</body>
+</html>

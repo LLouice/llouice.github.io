@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electron on LLouice</title>
+    <link>http://llouice.github.io/tags/electron/</link>
+    <description>Recent content in Electron on LLouice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 May 2018 14:28:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://llouice.github.io/tags/electron/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>http://llouice.github.io/post/first/</link>
+      <pubDate>Thu, 24 May 2018 14:28:30 +0800</pubDate>
+      
+      <guid>http://llouice.github.io/post/first/</guid>
+      <description>Bspline B-spline generator based on Electron and python 项目依赖安装 bootstrap bootstrap-switch jquery zeromq zerorpc zerorpc npm install git+https://github.com/fyears/zerorpc-node.git zerorpc zerorpc-node github zerorpc-python github zeromq Rebuilding for Electron before npm start npm rebuild zeromq --runtime=electron --target=1.8.4 zeromq for node.js devDependencies electron : ^1.8.4 electron-reload : ^2.2.1 打包 使用 Eelctron-Packager 进行打包 electron-packager . B-spline --overwrite --asar=true --ignore=&amp;quot;bak&amp;quot; --ignore=&amp;quot;pybspline&amp;quot; 由于 main.js 中</description>
+    </item>
+    
+  </channel>
+</rss>
