@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on LLouice</title>
+    <link>http://llouice.github.io/tags/thoughts/</link>
+    <description>Recent content in Thoughts on LLouice</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 07 Jun 2018 14:33:17 +0800</lastBuildDate>
+    
+	<atom:link href="http://llouice.github.io/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>读研前的感想</title>
+      <link>http://llouice.github.io/post/thought-before-the-graduate-school/</link>
+      <pubDate>Thu, 07 Jun 2018 14:33:17 +0800</pubDate>
+      
+      <guid>http://llouice.github.io/post/thought-before-the-graduate-school/</guid>
+      <description>行政的恶意 从暑期学校的强制性已经能感受到未来的研究生不是那么自由和轻松的了。不透明的导师选择， 没有双选，有点理解为什么那么多跳楼的了。不过人</description>
+    </item>
+    
+  </channel>
+</rss>
